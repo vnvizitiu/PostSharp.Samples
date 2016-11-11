@@ -1,7 +1,7 @@
 ﻿using System;
 using PostSharp.Samples.CustomLogging.Aspects;
 
-// Add logging to everything method in the assembly.
+// Add logging to every method in the assembly.
 
 [assembly: LogMethod(AttributePriority = 0)]
 
@@ -22,7 +22,7 @@ namespace PostSharp.Samples.CustomLogging
     {
         [LogSetValue] private static int Value;
 
-        private static void Main(string[] args)
+        private static void Main()
         {
             // Demonstrate that we can create a nice hierarchical log including parameter and return values.
             Value = Fibonacci(5);
@@ -43,12 +43,13 @@ namespace PostSharp.Samples.CustomLogging
 
         private static int Fibonacci(int n)
         {
-            if (n < 0)
+            if ( n < 0 )
                 throw new ArgumentOutOfRangeException();
             if (n == 0)
                 return 0;
             if (n == 1)
                 return 1;
+
             return Fibonacci(n - 1) + Fibonacci(n - 2);
         }
     }

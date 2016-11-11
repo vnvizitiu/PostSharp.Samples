@@ -11,7 +11,8 @@ namespace PostSharp.Samples.AutoRetry
 
         private static void Main(string[] args)
         {
-            Console.WriteLine(DownloadFile());
+            var content = DownloadFile();
+            Console.WriteLine(content);
         }
 
 

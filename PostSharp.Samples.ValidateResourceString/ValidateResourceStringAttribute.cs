@@ -32,7 +32,7 @@ namespace PostSharp.Samples.ValidateResourceString
         ///     Validates that the attribute has been applied to a valid parameter.
         /// </summary>
         /// <param name="target">The parameter to which the attribute has been applied.</param>
-        /// <returns><c>true</c> if the attribure is applied to a valid parameter, otherwise <c>false</c>.</returns>
+        /// <returns><c>true</c> if the attribute is applied to a valid parameter, otherwise <c>false</c>.</returns>
         public override bool ValidateConstraint(object target)
         {
             // Validate that the attribute has been applied to a parameter of type string.

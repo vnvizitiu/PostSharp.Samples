@@ -1,5 +1,6 @@
 ﻿using PostSharp.Patterns.Model;
 using PostSharp.Patterns.Recording;
+using PostSharp.Patterns.Threading;
 
 namespace PostSharp.Samples.Xaml
 {
@@ -8,6 +9,7 @@ namespace PostSharp.Samples.Xaml
 
     [NotifyPropertyChanged]
     [Recordable(ProvideMethodContext = true)]
+    [ReaderWriterSynchronized]
     public abstract class ModelBase
     {
     }

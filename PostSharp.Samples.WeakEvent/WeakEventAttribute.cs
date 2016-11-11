@@ -14,6 +14,7 @@ namespace PostSharp.Samples.WeakEvent
     /// </summary>
     [PSerializable]
     [LinesOfCodeAvoided(6)]
+    [WeakEventValidation]
     public sealed class WeakEventAttribute : EventInterceptionAspect, IInstanceScopedAspect
     {
         [PNonSerialized] private WeakEventHandler weakEventHandler;
@@ -133,5 +134,6 @@ namespace PostSharp.Samples.WeakEvent
 
             weakEventHandler.InvokeHandler(args.Arguments.ToArray());
         }
+
     }
 }

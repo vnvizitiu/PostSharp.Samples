@@ -39,7 +39,6 @@ The aspect does not show how to store, analyze or display the performance metric
 
 ## Demonstrated techniques
 
-
 The aspect demonstrates the use of `OnMethodBoundaryAspect` on async methods, especially the use of
 the `OnYield` and `OnResume` advices. It also shows how to use `MethodExecutionTag` to share information between advices
 in a way that is both thread-safe and reentrance-safe. 

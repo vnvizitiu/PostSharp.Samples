@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.CustomLogging", "PostSharp.Samples.CustomLogging\PostSharp.Samples.CustomLogging.csproj", "{C943DF92-512E-4488-83C0-96DD10CA9854}"
 EndProject
@@ -21,12 +21,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Xaml", "P
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A414FFE7-2FE3-4AC9-B12A-9E6EF736553E}"
 	ProjectSection(SolutionItems) = preProject
+		PostSharp.Samples.pssln = PostSharp.Samples.pssln
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Transactions", "PostSharp.Samples.Transactions\PostSharp.Samples.Transactions.csproj", "{4C86E0AF-0033-4583-90F1-9A37B29783F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Profiling", "PostSharp.Samples.Profiling\PostSharp.Samples.Profiling.csproj", "{33D8E82D-5474-4AC1-878A-0D9B0C28F73B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Encryption", "PostSharp.Samples.Encryption\PostSharp.Samples.Encryption.csproj", "{2ABD1A34-FC7D-4B6A-94D3-2266D72F09E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Threading.PingPong", "PostSharp.Samples.Threading.PingPong\PostSharp.Samples.Threading.PingPong.csproj", "{F07449FA-C066-4FD3-AA80-C0A3DC8B268B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Threading.ThreadDispatching", "PostSharp.Samples.Threading.ThreadDispatching\PostSharp.Samples.Threading.ThreadDispatching.csproj", "{A4E6B3B1-D79E-4FFB-A8EB-5066C2D57047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.MiniProfiler", "PostSharp.Samples.MiniProfiler\PostSharp.Samples.MiniProfiler.csproj", "{C24F62F1-BCFB-41F5-9119-2E36C2D7413F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Persistence", "PostSharp.Samples.Persistence\PostSharp.Samples.Persistence.csproj", "{7B76A67B-2667-4E79-8D33-6AAF769BB4FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.AutoDataContract", "PostSharp.Samples.AutoDataContract\PostSharp.Samples.AutoDataContract.csproj", "{EEF6E032-8DF0-4894-A593-F9EC9CC539A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +87,30 @@ Global
 		{33D8E82D-5474-4AC1-878A-0D9B0C28F73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33D8E82D-5474-4AC1-878A-0D9B0C28F73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33D8E82D-5474-4AC1-878A-0D9B0C28F73B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ABD1A34-FC7D-4B6A-94D3-2266D72F09E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABD1A34-FC7D-4B6A-94D3-2266D72F09E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABD1A34-FC7D-4B6A-94D3-2266D72F09E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABD1A34-FC7D-4B6A-94D3-2266D72F09E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07449FA-C066-4FD3-AA80-C0A3DC8B268B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07449FA-C066-4FD3-AA80-C0A3DC8B268B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07449FA-C066-4FD3-AA80-C0A3DC8B268B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07449FA-C066-4FD3-AA80-C0A3DC8B268B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E6B3B1-D79E-4FFB-A8EB-5066C2D57047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E6B3B1-D79E-4FFB-A8EB-5066C2D57047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E6B3B1-D79E-4FFB-A8EB-5066C2D57047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E6B3B1-D79E-4FFB-A8EB-5066C2D57047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24F62F1-BCFB-41F5-9119-2E36C2D7413F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24F62F1-BCFB-41F5-9119-2E36C2D7413F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24F62F1-BCFB-41F5-9119-2E36C2D7413F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24F62F1-BCFB-41F5-9119-2E36C2D7413F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B76A67B-2667-4E79-8D33-6AAF769BB4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B76A67B-2667-4E79-8D33-6AAF769BB4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B76A67B-2667-4E79-8D33-6AAF769BB4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B76A67B-2667-4E79-8D33-6AAF769BB4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF6E032-8DF0-4894-A593-F9EC9CC539A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF6E032-8DF0-4894-A593-F9EC9CC539A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF6E032-8DF0-4894-A593-F9EC9CC539A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF6E032-8DF0-4894-A593-F9EC9CC539A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

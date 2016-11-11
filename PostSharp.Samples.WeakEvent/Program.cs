@@ -34,7 +34,7 @@ namespace PostSharp.Samples.WeakEvent
         private static event EventHandler MyEvent;
     }
 
-    [WeakEventClient]
+   [WeakEventClient]
     internal class EventClient
     {
         public static int EventHandlerCount;

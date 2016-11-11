@@ -10,7 +10,7 @@
     <DockPanel>
         <ToolBarTray DockPanel.Dock="Top">
             <ToolBar>
-                <Button>Save</Button>
+                <Button Name="SaveButton" Click="SaveButton_OnClick">Save</Button>
                 <u:UndoButton />
                 <u:RedoButton />
             </ToolBar>
