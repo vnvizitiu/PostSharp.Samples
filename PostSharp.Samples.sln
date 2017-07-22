@@ -1,23 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.CustomLogging", "PostSharp.Samples.CustomLogging\PostSharp.Samples.CustomLogging.csproj", "{C943DF92-512E-4488-83C0-96DD10CA9854}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.CustomLogging", "Framework\PostSharp.Samples.CustomLogging\PostSharp.Samples.CustomLogging.csproj", "{C943DF92-512E-4488-83C0-96DD10CA9854}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.CustomCaching", "PostSharp.Samples.CustomCaching\PostSharp.Samples.CustomCaching.csproj", "{20AC1E41-945E-4F53-9C00-99AFE4A01EDF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.CustomCaching", "Framework\PostSharp.Samples.CustomCaching\PostSharp.Samples.CustomCaching.csproj", "{20AC1E41-945E-4F53-9C00-99AFE4A01EDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.ExceptionHandling", "PostSharp.Samples.ExceptionHandling\PostSharp.Samples.ExceptionHandling.csproj", "{011B1320-BB21-4CC8-81C9-64A9CA31DD69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.ExceptionHandling", "Framework\PostSharp.Samples.ExceptionHandling\PostSharp.Samples.ExceptionHandling.csproj", "{011B1320-BB21-4CC8-81C9-64A9CA31DD69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.AutoRetry", "PostSharp.Samples.AutoRetry\PostSharp.Samples.AutoRetry.csproj", "{2413A15B-6B4C-48BB-AF5E-3AAF0C1FDE7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.AutoRetry", "Framework\PostSharp.Samples.AutoRetry\PostSharp.Samples.AutoRetry.csproj", "{2413A15B-6B4C-48BB-AF5E-3AAF0C1FDE7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.WeakEvent", "PostSharp.Samples.WeakEvent\PostSharp.Samples.WeakEvent.csproj", "{4868DED2-44EA-47BB-BAD9-DB35E97FF3BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.WeakEvent", "Framework\PostSharp.Samples.WeakEvent\PostSharp.Samples.WeakEvent.csproj", "{4868DED2-44EA-47BB-BAD9-DB35E97FF3BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.ValidateResourceString", "PostSharp.Samples.ValidateResourceString\PostSharp.Samples.ValidateResourceString.csproj", "{6ACA8A5D-2E0D-438B-898F-E73594D6D8F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.ValidateResourceString", "Framework\PostSharp.Samples.ValidateResourceString\PostSharp.Samples.ValidateResourceString.csproj", "{6ACA8A5D-2E0D-438B-898F-E73594D6D8F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.SessionState", "PostSharp.Samples.SessionState\PostSharp.Samples.SessionState.csproj", "{B483DC19-BD2F-4276-9F08-A77DB8589C1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.SessionState", "Framework\PostSharp.Samples.SessionState\PostSharp.Samples.SessionState.csproj", "{B483DC19-BD2F-4276-9F08-A77DB8589C1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Xaml", "PostSharp.Samples.Xaml\PostSharp.Samples.Xaml.csproj", "{B10B8456-75F7-4D68-9775-CC87517B07B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Xaml", "Xaml\PostSharp.Samples.Xaml\PostSharp.Samples.Xaml.csproj", "{B10B8456-75F7-4D68-9775-CC87517B07B6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A414FFE7-2FE3-4AC9-B12A-9E6EF736553E}"
 	ProjectSection(SolutionItems) = preProject
@@ -25,21 +25,39 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Transactions", "PostSharp.Samples.Transactions\PostSharp.Samples.Transactions.csproj", "{4C86E0AF-0033-4583-90F1-9A37B29783F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Transactions", "Framework\PostSharp.Samples.Transactions\PostSharp.Samples.Transactions.csproj", "{4C86E0AF-0033-4583-90F1-9A37B29783F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Profiling", "PostSharp.Samples.Profiling\PostSharp.Samples.Profiling.csproj", "{33D8E82D-5474-4AC1-878A-0D9B0C28F73B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Profiling", "Framework\PostSharp.Samples.Profiling\PostSharp.Samples.Profiling.csproj", "{33D8E82D-5474-4AC1-878A-0D9B0C28F73B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Encryption", "PostSharp.Samples.Encryption\PostSharp.Samples.Encryption.csproj", "{2ABD1A34-FC7D-4B6A-94D3-2266D72F09E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Encryption", "Framework\PostSharp.Samples.Encryption\PostSharp.Samples.Encryption.csproj", "{2ABD1A34-FC7D-4B6A-94D3-2266D72F09E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Threading.PingPong", "PostSharp.Samples.Threading.PingPong\PostSharp.Samples.Threading.PingPong.csproj", "{F07449FA-C066-4FD3-AA80-C0A3DC8B268B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Threading.PingPong", "Threading\PostSharp.Samples.Threading.PingPong\PostSharp.Samples.Threading.PingPong.csproj", "{F07449FA-C066-4FD3-AA80-C0A3DC8B268B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Threading.ThreadDispatching", "PostSharp.Samples.Threading.ThreadDispatching\PostSharp.Samples.Threading.ThreadDispatching.csproj", "{A4E6B3B1-D79E-4FFB-A8EB-5066C2D57047}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Threading.ThreadDispatching", "Threading\PostSharp.Samples.Threading.ThreadDispatching\PostSharp.Samples.Threading.ThreadDispatching.csproj", "{A4E6B3B1-D79E-4FFB-A8EB-5066C2D57047}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.MiniProfiler", "PostSharp.Samples.MiniProfiler\PostSharp.Samples.MiniProfiler.csproj", "{C24F62F1-BCFB-41F5-9119-2E36C2D7413F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.MiniProfiler", "Framework\PostSharp.Samples.MiniProfiler\PostSharp.Samples.MiniProfiler.csproj", "{C24F62F1-BCFB-41F5-9119-2E36C2D7413F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Persistence", "PostSharp.Samples.Persistence\PostSharp.Samples.Persistence.csproj", "{7B76A67B-2667-4E79-8D33-6AAF769BB4FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Persistence", "Framework\PostSharp.Samples.Persistence\PostSharp.Samples.Persistence.csproj", "{7B76A67B-2667-4E79-8D33-6AAF769BB4FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.AutoDataContract", "PostSharp.Samples.AutoDataContract\PostSharp.Samples.AutoDataContract.csproj", "{EEF6E032-8DF0-4894-A593-F9EC9CC539A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.AutoDataContract", "Framework\PostSharp.Samples.AutoDataContract\PostSharp.Samples.AutoDataContract.csproj", "{EEF6E032-8DF0-4894-A593-F9EC9CC539A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aspect Framework", "Aspect Framework", "{D83514BD-6473-4A66-AD23-D996968DE17C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XAML", "XAML", "{0EB69154-BD96-40EF-8404-398B2F956C79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagnostics", "Diagnostics", "{B1F3FAC0-64CB-4CFC-994C-DF56801FC743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Logging", "Diagnostics\PostSharp.Samples.Logging\PostSharp.Samples.Logging.csproj", "{FB71F9B1-4A53-4397-A26C-23294423DA4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threading", "Threading", "{44399EE3-2C8A-4ECE-BC3D-F4D2CA50290F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solid", "Solid", "{6B37892E-40E4-49C1-8E59-84C2AD14DD73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Caching", "Solid\PostSharp.Samples.Caching\PostSharp.Samples.Caching.csproj", "{547C4D64-3349-4909-B261-A2242E21E228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.Frigate.Generator", "Diagnostics\PostSharp.Samples.Frigate.Generator\PostSharp.Samples.Frigate.Generator.csproj", "{963578D1-7916-49E9-BE59-BA52721A6FF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostSharp.Samples.ResharperAnnotations", "Framework\PostSharp.Samples.ResharperAnnotations\PostSharp.Samples.ResharperAnnotations.csproj", "{4CC21052-7D9D-41DE-B8BB-0263F63C0133}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,8 +129,46 @@ Global
 		{EEF6E032-8DF0-4894-A593-F9EC9CC539A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEF6E032-8DF0-4894-A593-F9EC9CC539A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEF6E032-8DF0-4894-A593-F9EC9CC539A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB71F9B1-4A53-4397-A26C-23294423DA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB71F9B1-4A53-4397-A26C-23294423DA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB71F9B1-4A53-4397-A26C-23294423DA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB71F9B1-4A53-4397-A26C-23294423DA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{547C4D64-3349-4909-B261-A2242E21E228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{547C4D64-3349-4909-B261-A2242E21E228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{547C4D64-3349-4909-B261-A2242E21E228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{547C4D64-3349-4909-B261-A2242E21E228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{963578D1-7916-49E9-BE59-BA52721A6FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963578D1-7916-49E9-BE59-BA52721A6FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{963578D1-7916-49E9-BE59-BA52721A6FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{963578D1-7916-49E9-BE59-BA52721A6FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC21052-7D9D-41DE-B8BB-0263F63C0133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC21052-7D9D-41DE-B8BB-0263F63C0133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC21052-7D9D-41DE-B8BB-0263F63C0133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC21052-7D9D-41DE-B8BB-0263F63C0133}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C943DF92-512E-4488-83C0-96DD10CA9854} = {D83514BD-6473-4A66-AD23-D996968DE17C}
+		{20AC1E41-945E-4F53-9C00-99AFE4A01EDF} = {D83514BD-6473-4A66-AD23-D996968DE17C}
+		{011B1320-BB21-4CC8-81C9-64A9CA31DD69} = {D83514BD-6473-4A66-AD23-D996968DE17C}
+		{2413A15B-6B4C-48BB-AF5E-3AAF0C1FDE7F} = {D83514BD-6473-4A66-AD23-D996968DE17C}
+		{4868DED2-44EA-47BB-BAD9-DB35E97FF3BB} = {D83514BD-6473-4A66-AD23-D996968DE17C}
+		{6ACA8A5D-2E0D-438B-898F-E73594D6D8F8} = {D83514BD-6473-4A66-AD23-D996968DE17C}
+		{B483DC19-BD2F-4276-9F08-A77DB8589C1C} = {D83514BD-6473-4A66-AD23-D996968DE17C}
+		{B10B8456-75F7-4D68-9775-CC87517B07B6} = {0EB69154-BD96-40EF-8404-398B2F956C79}
+		{4C86E0AF-0033-4583-90F1-9A37B29783F8} = {D83514BD-6473-4A66-AD23-D996968DE17C}
+		{33D8E82D-5474-4AC1-878A-0D9B0C28F73B} = {D83514BD-6473-4A66-AD23-D996968DE17C}
+		{2ABD1A34-FC7D-4B6A-94D3-2266D72F09E0} = {D83514BD-6473-4A66-AD23-D996968DE17C}
+		{F07449FA-C066-4FD3-AA80-C0A3DC8B268B} = {44399EE3-2C8A-4ECE-BC3D-F4D2CA50290F}
+		{A4E6B3B1-D79E-4FFB-A8EB-5066C2D57047} = {44399EE3-2C8A-4ECE-BC3D-F4D2CA50290F}
+		{C24F62F1-BCFB-41F5-9119-2E36C2D7413F} = {D83514BD-6473-4A66-AD23-D996968DE17C}
+		{7B76A67B-2667-4E79-8D33-6AAF769BB4FE} = {D83514BD-6473-4A66-AD23-D996968DE17C}
+		{EEF6E032-8DF0-4894-A593-F9EC9CC539A7} = {D83514BD-6473-4A66-AD23-D996968DE17C}
+		{FB71F9B1-4A53-4397-A26C-23294423DA4D} = {B1F3FAC0-64CB-4CFC-994C-DF56801FC743}
+		{547C4D64-3349-4909-B261-A2242E21E228} = {6B37892E-40E4-49C1-8E59-84C2AD14DD73}
+		{963578D1-7916-49E9-BE59-BA52721A6FF3} = {B1F3FAC0-64CB-4CFC-994C-DF56801FC743}
+		{4CC21052-7D9D-41DE-B8BB-0263F63C0133} = {D83514BD-6473-4A66-AD23-D996968DE17C}
 	EndGlobalSection
 EndGlobal

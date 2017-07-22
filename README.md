@@ -4,8 +4,8 @@
 
 | Example                                   | Description                                               | Demonstrated PostSharp features                                                           |
 | :---------------------------------------- | :-------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
-| [PostSharp.Samples.CustomLogging](PostSharp.Samples.CustomLogging/README.md)           | Logs method calls including parameter values.             | Simple features of OnMethodBoundaryAspect, LocationInterceptionAspect.                   |
-| [PostSharp.Samples.CustomCaching](PostSharp.Samples.CustomCaching/README.md)           | Caches the results of methods calls                       | OnMethodBoundaryAspect: FlowBehavior, MethodExecutionTag.                                |
+| [PostSharp.Samples.CustomLogging](PostSharp.Samples.CustomLogging/Program.cs)           | Logs method calls including parameter values.             | Simple features of OnMethodBoundaryAspect, LocationInterceptionAspect.                   |
+| [PostSharp.Samples.CustomCaching](PostSharp.Samples.CustomCaching/Program.cs)           | Caches the results of methods calls                       | OnMethodBoundaryAspect: FlowBehavior, MethodExecutionTag.                                |
 | [PostSharp.Samples.ExceptionHandling](PostSharp.Samples.ExceptionHandling/README.md)       | Add parameter values to call stack in exception details. Report and then swallow exceptions in entry points.  | OnExceptionAspect including FlowBehavior.  |
 | [PostSharp.Samples.AutoRetry](PostSharp.Samples.AutoRetry/README.md)               | Automatically retries a method call when it fails.        | MethodInterceptionAspect                                                                 |
 | [PostSharp.Samples.WeakEvent](PostSharp.Samples.WeakEvent/README.md)               | Prevents memory leaks due to events.                      | EventInterceptionAspect, IInstanceScopedAspect, InstanceLevelAspect, IntroduceInterface  |
